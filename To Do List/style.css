@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans-serif;
+
+  background-color: rgb(23, 24, 29);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.entry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+  color: rgb(108, 165, 240);
+  font-size: 42px;
+  margin-right: 7rem;
+}
+.do {
+  background-color: rgb(22, 21, 21);
+  text-align: start;
+  padding: .8rem;
+  padding-right: 12rem;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 2rem;
+  border: none;
+  box-sizing: none;
+  border-radius: 6px;
+  font-family: "poppins", sans-serif;
+  color: cornsilk;
+  overflow-x: auto;
+}
+.do::placeholder {
+  color: rgb(142, 182, 235);
+  font-size: 18px;
+  text-align: start;
+  filter: blur(1px);
+}
+.btn{
+    margin-left:4rem ;
+    font-size: 30px;
+    padding: 7px 2rem;
+    border: none;
+    background-color: rgb(22, 21, 21);
+    font-weight: 500;
+    color: rgb(24, 118, 241);
+    border-radius: 4px;
+    margin-top: 2rem;
+    transition: .2s ease-in;
+    
+}
+.btn:hover{
+  background-color: rgb(24, 118, 241);
+  color: rgb(22, 21, 21);
+}
+.contain {
+    overflow:hidden;
+    margin-top: 3rem;
+    width: 100%;
+    height: 52vh;
+    border:  transparent ;
+    overflow-y: auto;
+    border-radius: 10px;
+    
+    -webkit-box-shadow: 2px 2px 23px 13px rgba(131, 121, 121, 0.4);
+-moz-box-shadow: 2px 2px 23px 13px rgba(0,0,0,0.4);
+box-shadow: 2px 2px 23px 1px rgba(206, 200, 200, 0.4);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.task{
+    margin: 1rem;
+    padding: 0.8rem;
+    width: 70%;
+    background-color: rgb(22, 21, 21);
+    border: none;
+    text-align: start;
+    font-size: 24px;
+    color: cornsilk;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.btn1{
+    font-size: 20px;
+    margin-left: 8px;
+    padding: 9px 1.9rem;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(22, 21, 21);
+    color: cornsilk;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+}
+.edit:hover{
+    background-color: whitesmoke;
+    color: #000;
+    border: none;
+
+}
+.save:hover{
+ background-color: rgb(2, 230, 2);
+ border: none;
+ color: black;
+}
+
+.delete:hover{
+ background-color:rgb(201, 5, 5);
+ color: black;
+ border: none;
+}
+.hidden{
+  display: none;
+}
